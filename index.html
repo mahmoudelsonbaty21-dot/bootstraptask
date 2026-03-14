@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Demo</title>
+    <!-- Favicon -->
+    <link rel="icon" href="./images/favicon.png" type="image/png">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <!-- Bootstrap-icons -->
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
+    <!-- Bootstrap.css -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Custom Css File -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="bi bi-grid-3x3-gap-fill"></i>
+            </button>
+            <div class="collapse navbar-collapse text-center " id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-bold" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-bold" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-bold" href="#">How It Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-bold" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-bold" href="#">Contact</a>
+                    </li>
+                    <li class="dropdown-menu">
+                        <a class="nav-link dropdown-toggle text-dark fw-bold" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="d-flex justify-content-center" role="search">
+                    <a class="btn mx-2 btn btn-md bg-success-subtle text-success fw-bold btn-lg fs-6"
+                        type="submit">Login</a>
+                    <a class="btn mx-2 btn btn-md bg-secondary-success text-white fw-bold btn-lg fs-6"
+                        type="submit">Sign in</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-body-tertiary py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 mt-5 ">
+                    <h1 class="fw-bolder fs-xl w-75">
+                        Get A Fastest Loan With A Smart Way By Seating At Home
+                    </h1>
+                    <p class="w-75 text-secondary my-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vero, illum veritatis vitae
+                        molestiae quam consequuntur.
+                    </p>
+                    <a href="" class="btn bg-secondary-success text-white fs-6 btn-sm mt-3">
+                        Apply Loan Now<i class="bi bi-arrow-right-short fs-5 fw-bold" id="icon"></i>
+                    </a>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <img src="/images/banner/banner.png">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="services  py-5 bg-body-tertiary">
+        <div class="container bg-white">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12 py-4 px-4">
+                    <h5 class="text-secondary-success fw-bolder">
+                        Our Services
+                    </h5>
+                    <h2 class="fs-1 fw-bolder w-75 my-3">
+                        Our Online And Offline Services
+                    </h2>
+                    <p class="text-secondary me-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate fugiat impedit cum.
+                    </p>
+                </div>
+                <div class="col-lg-4 col-sm-12 border border-light py-4 px-4">
+                    <div class="icon bg-light-purple text-purple py-3 px-4 rounded-2 fw-bolder fs-4 d-inline-block">01
+                    </div>
+                    <h4 class="mt-4 fw-bolder  mb-3">Personal Loans</h4>
+                    <p class="text-secondary me-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
+                        sapiente optio accusantium?</p>
+                </div>
+                <div class="col-lg-4 col-sm-12 border border-light py-4 px-4">
+                    <div class="icon bg-light-success text-success py-3 px-4 rounded-2 fw-bolder fs-4 d-inline-block">02
+                    </div>
+                    <h4 class="mt-4 fw-bolder  mb-3">Home Equity Loans</h4>
+                    <p class="text-secondary me-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
+                        sapiente optio accusantium?</p>
+                </div>
+                <div class="col-lg-4 col-sm-12 border border-light py-4 px-4">
+                    <div class="icon bg-light-purple text-purple py-3 px-4 rounded-2 fw-bolder fs-4 d-inline-block">03
+                    </div>
+                    <h4 class="mt-4 fw-bolder  mb-3">Mortgage Loans</h4>
+                    <p class="text-secondary me-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
+                        sapiente optio accusantium?</p>
+                </div>
+                <div class="col-lg-4 col-sm-12 border border-light py-4 px-4">
+                    <div class="icon bg-light-success text-success py-3 px-4 rounded-2 fw-bolder fs-4 d-inline-block">04
+                    </div>
+                    <h4 class="mt-4 fw-bolder  mb-3">Student Loans</h4>
+                    <p class="text-secondary me-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
+                        sapiente optio accusantium?</p>
+                </div>
+                <div class="col-lg-4 col-sm-12 border border-light py-4 px-4">
+                    <div class="icon bg-light-purple text-purple py-3 px-4 rounded-2 fw-bolder fs-4 d-inline-block">05
+                    </div>
+                    <h4 class="mt-4 fw-bolder  mb-3">Payday Loans</h4>
+                    <p class="text-secondary me-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
+                        sapiente optio accusantium?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-body-tertiary">
+        <div class="container bg-body-tertiary ">
+            <div class="row d-flex justify-content-between">
+                <div class="col-lg-4 col-sm-12 py-5 px-4">
+                    <h5 class="text-secondary-success fw-bolder">
+                        ABOUT OURSELVES
+                    </h5>
+                    <h2 class="fs-1 fw-bolder w-75 my-3">
+                        Fast Funding & A Flexible Payment
+                    </h2>
+                    <p class="text-secondary ">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur hic ab doloremque eius ea
+                        quam libero dolorem, nihil animi ut, totam aut perferendis ex soluta laborum quaerat voluptate
+                        est tenetur molestiae ad, nam facilis sapiente perspiciatis beatae. Laborum, tenetur quibusdam
+                        non fugiat similique veniam, aperiam animi odit eius dolor molestiae?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate fugiat impedit cum.
+                    </p>
+                    <a href="" class="btn bg-secondary-success text-white fs-6 btn-sm mt-3">
+                        Know About Us<i class="bi bi-arrow-right-short fs-5 fw-bold" id="icon"></i>
+                    </a>
+                </div>
+                <div class="col-lg-6 col-sm-12 py-5 px-4 mx-3">
+                    <img src="/images/about-us.png">
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="bg-body-tertiary py-5 ">
+        <div class="container d-flex justify-content-between bg-white">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12 py-5 px-4">
+                    <h5 class="text-secondary-success fw-bolder">
+                        DIFFRENCE OF US
+                    </h5>
+                    <h2 class="fs-1 fw-bolder w-75 my-3">
+                        What Makes Us Different From Other?
+                    </h2>
+                    <p class="text-secondary ">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur hic ab doloremque eius ea
+                        quam libero dolorem, nihil animi ut, totam aut perferendis ex soluta laborum quaerat voluptate
+                        est tenetur molestiae ad, nam facilis sapiente perspiciatis beatae. Laborum, tenetur quibusdam
+                        non fugiat similique veniam, aperiam animi odit eius dolor molestiae?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate fugiat impedit cum.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-sm-12 py-5 px-4 mx-3">
+                    <div class="d-flex mb-3 ">
+                        <div class="icon-box rounded-2 bg-light-purple me-3 mt-3 mb-3">
+                            <i
+                                class="bi bi-shield-shaded text-purple py-4 px-4 rounded-3 fw-bolder fs-1 d-inline-block"></i>
+                        </div>
+                        <div>
+                            <h3 class="mt-4 fw-bolder mb-3">Fast And Secure Process</h3>
+                            <p class="text-secondary me-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Ducimus sapiente optio accusantium?</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-3">
+                        <div class="icon-box rounded-2 bg-light-success me-3 mt-3 mb-3">
+                            <i class="bi bi-headset text-success py-4 px-4 rounded-3 fw-bolder fs-1 d-inline-block"></i>
+                        </div>
+                        <div>
+                            <h3 class="mt-4 fw-bolder mb-3">Quick Question Answers</h3>
+                            <p class="text-secondary me-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Ducimus sapiente optio accusantium?</p>
+
+                        </div>
+                    </div>
+                    <div class="d-flex mb-3">
+                        <div class="icon-box rounded-2 bg-light-purple me-3 mt-3 mb-3">
+                            <i class="bi bi-cash text-purple py-4 px-4 rounded-3 fw-bolder fs-1 d-inline-block"></i>
+                        </div>
+                        <div>
+                            <h3 class="mt-4 fw-bolder mb-3">We Get You Your Cash Quick</h3>
+                            <p class="text-secondary me-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Ducimus sapiente optio accusantium?</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-body-tertiary py-5">
+        <div class="container bg-body-tertiary ">
+            <div class="row">
+
+                <div class="col text-center">
+                    <h5 class="text-secondary-success fw-bolder">
+                        QUESTIONS YOU HAVE
+                    </h5>
+                    <h2 class="fs-1 fw-bolder ">
+                        Frequently Asked Questions
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="col col-sm-12 py-3 px-4 mx-3 ">
+                        <div class="accordion accordion-body bg-white rounded-2" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bolder" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                        aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Can I apply if my credit isn’t perfect?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse text-secondary"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">The difference between free and premium product
+                                        consist number of components, plugins, page in each.The Free versions contain
+                                        only a few elements and pagesthat.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bolder" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                        aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        How do I know that I have been approved?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is
+                                        intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                        second item’s accordion body. Let’s imagine this being filled with some
+                                        actual
+                                        content.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bolder" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                        aria-expanded="false" aria-controls="flush-collapseThree">
+                                        Do I need to fax or email any documents?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is
+                                        intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                        third item’s accordion body. Nothing more exciting happening here in terms
+                                        of
+                                        content, but just filling up the space to make it look, at least at first
+                                        glance, a bit more representative of how this would look in a real-world
+                                        application.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bolder" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                        aria-expanded="false" aria-controls="flush-collapseThree">
+                                        Do you provide loans to military personal?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is
+                                        intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                        third item’s accordion body. Nothing more exciting happening here in terms
+                                        of
+                                        content, but just filling up the space to make it look, at least at first
+                                        glance, a bit more representative of how this would look in a real-world
+                                        application.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bolder" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                        aria-expanded="false" aria-controls="flush-collapseThree">
+                                        Can I remove footer credit purchase?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is
+                                        intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                        third item’s accordion body. Nothing more exciting happening here in terms
+                                        of
+                                        content, but just filling up the space to make it look, at least at first
+                                        glance, a bit more representative of how this would look in a real-world
+                                        application.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bolder" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                        aria-expanded="false" aria-controls="flush-collapseThree">
+                                        What is the difference the free versions?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is
+                                        intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                        third item’s accordion body. Nothing more exciting happening here in terms
+                                        of
+                                        content, but just filling up the space to make it look, at least at first
+                                        glance, a bit more representative of how this would look in a real-world
+                                        application.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-4 col-sm-12 px-4 mx-2 bg-white rounded-2 mb-4 ">
+                    <div>
+                        <h3 class="mt-4 fw-bolder mb-3">Still Have Questions?</h3>
+                        <p class="text-secondary me-3">Call Us We Will Be Happy To Help</p>
+                        <p class="text-success fw-bold">+3301563965</p>
+                        <p class="text-muted">
+                            Monday – Friday<br>
+                            9AM TO 8PM Eastern Time
+                        </p>
+
+                        <h3 class="mt-4 fw-bolder mb-3">Canada Office</h3>
+                        <p class="text-secondary me-3"> 231 Ross Street.<br>
+                            K7A 1C2.<br>
+                            Smiths Falls</p>
+
+                        <h3 class="mt-4 fw-bolder mb-3">UK Office</h3>
+                        <p class="text-secondary me-3"> 57 Folkestone Road.<br>
+                            AB54 5XQ.<br>
+                            Winston
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-sm-12 py-5 px-4 ">
+                    <h6 class="text-success fw-bolder">Service</h6>
+                    <ul class="list-unstyled">
+                        <li>Personal loans</li>
+                        <li>Home Equity Loans</li>
+                        <li>Student Loans</li>
+                        <li>Mortgage Loans</li>
+                        <li>Payday Loans</li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-sm-12 py-5 px-4 ">
+                    <h6 class="text-success fw-bolder">About</h6>
+                    <ul class="list-unstyled">
+                        <li>Benefits</li>
+                        <li>Careers</li>
+                        <li>Our Story</li>
+                        <li>Team</li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-sm-12 py-5 px-4">
+                    <h6 class="text-success fw-bolder">Help</h6>
+                    <ul class="list-unstyled">
+                        <li>Contact Us</li>
+                        <li>FAQs</li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-sm-12 bg-body-tertiary py-5 mt-3">
+                    <h6 class="text-secondary-success fw-bolder">Subscribe</h6>
+                    <div>
+                        <div class="d-flex">
+                            <input type="email" class="form-control text-secondary border-success rounded-0"
+                                placeholder="Email address">
+                            <button class="btn btn-success rounded-0">
+                                <i class="bi bi-arrow-right"></i>
+
+                            </button>
+                        </div>
+                        <div>
+                            <p class="text-muted mt-3 mb-0">
+                                Lorem ipsum dolor sit amet, sadipscing elitr,
+                                sed diam nonumy eirmod tempor invidunt ut
+                                labore et dolore magna aliquyam erat
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center mt-5 mb-4">
+                <div class="col-md-4">
+                    <h4 class="fw-bold">
+                        <img src="./images/logo.png" alt="">
+                    </h4>
+                </div>
+
+                <div class="col-md-4 text-center text-decoration-none">
+                    <a href="#" class="me-3 text-dark text-decoration-none">Privacy Policy</a>
+                    <a href="#" class="text-dark text-decoration-none">Terms & Conditions</a>
+                </div>
+
+                <div class="col-md-4 text-end">
+                    <a href="#" class="btn btn-outline-secondary btn-sm rounded-2 px-2"><i class="bi bi-facebook text-dark"></i></a>
+                    <a href="#" class="btn btn-outline-secondary btn-sm rounded-2 px-2"><i class="bi bi-twitter text-success"></i></a>
+                    <a href="#" class="btn btn-outline-secondary btn-sm rounded-2 px-2"><i class="bi bi-instagram text-dark"></i></a>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+    </section>
+    <script src="./node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
